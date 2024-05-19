@@ -1,0 +1,131 @@
+/* Reset some default styles */
+ html {
+   overflow: hidden;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+  }
+  /* NAV BAR STYLE */
+  .Nav_bar{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+text-decoration: none;
+ background-color: rgba(255, 255, 255, 0.808);
+ padding:15px;
+ margin:15px;
+ border:1px solid rgba(219, 205, 205, 0.007);
+ border-radius:5px;
+
+
+  }
+  /*  STYLE FOR LINK  */
+.item_name{
+    color:rgb(20, 20, 226);
+    text-decoration: none;
+}
+/* HOVER FOR LINK */
+.item_name:hover{
+    text-decoration: underline;
+}
+
+  /* STYLE FOR HEADING */
+  h1 {
+    text-align: center;
+    font-weight: 900;
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  /* STYLE FOR MAIN _ FULL PAGE */
+  .Main_div {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* STYLE FOR SUB DIV */
+  .Full_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  /* STYLE FOR INPUT SECTION */
+  #input_section {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    flex-grow: 1;
+    font-size: 15px;
+    font-weight:600;
+  }
+  
+  /* STYLE FOR ADD BUTTON */
+  #button_add {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #button_add:hover {
+    background-color: #0056b3;
+  }
+  
+  /* STYLE FOR DELETE SECTION */
+  #data_display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  /* STYLE FOR TO-DO AREA */
+  ul {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    font-weight: 600;
+    color:rgb(80, 80, 80);
+  }
+  
+  .todo_item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .todo_item:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* STYLE FOR DELETE BUTTON */
+  .delete_class {
+    background: none;
+    border: none;
+    color: #dc3545;
+    cursor: pointer;
+    font-size: 20px;
+    transition: color 0.3s;
+    
+  }
+  
+  .delete_class:hover {
+    color: #a71d2a;
+  }
+  
